@@ -14,8 +14,8 @@ export default class Index extends React.Component {
         <div className="index">
           <div className="mainPage">
             <Dashboard />
-            {/* <Products /> */}
-            <Office />
+            <Products />
+            {/* <Office /> */}
             {/* <LivingRoom /> */}
             {/* <Kitchen /> */}
           </div>
