@@ -1,0 +1,84 @@
+.dashboard {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+
+  .inpBox {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .searchInp {
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    background: #f1f5f8;
+    height: 40px;
+    padding-left: 10px;
+  }
+
+  .active {
+    text-decoration: underline;
+  }
+
+  .categoryes {
+    padding-left: 50px;
+    padding-top: 20px;
+    span {
+      color: black;
+      font-weight: 700;
+      font-size: 25px;
+    }
+
+    p {
+      padding-top: 10px;
+      color: gray;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  }
+
+  .company {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    span {
+      color: black;
+      font-weight: 700;
+      font-size: 20px;
+      padding-left: 50px;
+    }
+
+    .chooseInp {
+      width: 100px;
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+  }
+
+  .freeShoping {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 30px;
+
+    p {
+      text-align: center;
+      align-items: center;
+      font-family: sans-serif;
+      padding-top: 14px;
+    }
+  }
+
+  .cleareBtn {
+    width: 120px;
+    height: 35px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: #fff;
+  }
+}
